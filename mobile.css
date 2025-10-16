@@ -1,0 +1,64 @@
+@media (max-width:600px) {
+    body{
+    background-color: rgba(125, 69, 255, 0.589);
+}
+body h1{
+    color: aliceblue;
+}
+
+body label{
+    color: rgb(253, 252, 251);
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 150px;
+}
+#wow{
+    width: 70%;
+    height: 200px;
+    border: 5px solid rgb(120, 128, 125);
+    border-radius: 10px;
+    resize: none;
+}
+
+.main{
+    
+}
+.kp{
+    width: 70%;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 380px; */
+}
+
+.jo{background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+.jo a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    transition: all 0.3s;
+}
+.jo:hover{
+    border: 2px solid black;
+    margin-top: 2px;
+    box-shadow: 5px 5px 15px rgba(4, 10, 11, 0.2);
+}
+
+.main button{
+    padding: 3px 5px;
+    border-radius: 12px;
+    background-color: bisque;
+}
+
+.main button:hover{
+    padding: 4px 5px;
+    background-color: bisque;
+    box-shadow: 4px 4px 10px #333;
+}
+
+}

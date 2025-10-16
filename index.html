@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordCounter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="/word-count/style.css">
+    <link rel="stylesheet" href="/word-count/mobile.css">
+
+</head>
+<body>
+    <header>
+        <h1>Word Counter</h1>
+        
+    </header>
+    <div class="main">
+        <div class="kp">
+            <label for="wow">
+            Write Here:
+            </label>
+            <nav class="jo">
+                <a href="/word-count/index.html"><i class="fa-solid fa-arrows-rotate"></i>reset</a>
+            </nav>
+        </div>
+    <br>
+        <textarea id="wow" placeholder="write or paste here!"></textarea><br>
+        <button onclick="num()">Count</button>
+
+        <p id="kok"></p>
+
+        <script>
+            
+            function num() {
+                let userInput= document.getElementById("wow").value.trim().split(/\s+/);
+                count=1
+
+                if (userInput==""){
+                    document.getElementById("kok").textContent = "Total Words: 0";
+                    return;
+                }
+                //for (let i = 0; i < userInput.length; i++){
+                    //if(userInput[i]==" " && userInput[i+1]==" "){
+                     //   count=count
+                   // }
+                   // else if(userInput[i]==" "&& userInput[i]==\n){
+                     //   count+=1
+                   // }
+                //}
+                words=userInput.length
+                    document.getElementById("kok").textContent = "Total Words: "+ words;
+
+                }
+
+        </script>
+
+    </div>
+</body>
+</html>
