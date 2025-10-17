@@ -34,7 +34,7 @@
     }
     
     .jo{
-        width:40px;
+        width:45px;
         height:17px;
         background-color: #ffffff;
         padding: 0px;
@@ -50,6 +50,13 @@
         color: rgb(5, 5, 5);
         transition: all 0.3s;
     }
+
+    .jo a i{
+        font-size: 9px;
+        /* gap: px; */
+        padding:0px 2px;
+    }
+    
     .jo:hover{
         border: 2px solid black;
         margin-top: 2px;
@@ -70,5 +77,6 @@
 
 
 }
+
 
 
