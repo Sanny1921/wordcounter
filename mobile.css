@@ -35,7 +35,7 @@
     
     .jo{
         width:45px;
-        height:17px;
+        height:20px;
         background-color: #ffffff;
         padding: 0px;
         border-radius: 5px;
@@ -52,7 +52,7 @@
     }
 
     .jo a i{
-        font-size: 9px;
+        font-size: 8px;
         /* gap: px; */
         padding:0px 2px;
     }
@@ -77,6 +77,7 @@
 
 
 }
+
 
 
 
