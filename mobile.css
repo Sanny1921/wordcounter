@@ -45,14 +45,16 @@
     }
     .jo a{
         font-size:12px;
-        /* margin-right:1px;
-        margin-top:2px; */
+         margin-right:1px;
+        margin-top:2px;
         text-decoration: none;
         color: rgb(5, 5, 5);
         transition: all 0.3s;
     }
 
     .jo a i{
+        margin-right:2px;
+        margin-top:1px;
         font-size: 10px;
         /* gap: px; */
         padding:0px 2px;
@@ -78,6 +80,7 @@
 
 
 }
+
 
 
 
